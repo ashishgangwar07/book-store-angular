@@ -7,15 +7,15 @@ import { AuthComponent } from './auth.component';
 
 
 const routes: Routes=[
-  {path:'auth', component:AuthComponent, children:[
+  //{path:'auth', component:AuthComponent, children:[
     {path:'login', component:LoginComponent},
     {path:'signup', component:SignupComponent}
-]}
 ]
+///}]
 @NgModule({
   declarations: [],
    imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forChild(routes)
   ],
   exports: [RouterModule]
   
