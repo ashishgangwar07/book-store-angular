@@ -6,6 +6,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
 import { PublicModule } from './public/public.module';
+import { SharedModule } from './shared/shared.module';
 import { UserModule } from './user/user.module';
 
 // const routes: Routes =[
@@ -21,7 +22,8 @@ import { UserModule } from './user/user.module';
    AppRoutingModule,
    AuthModule,
    PublicModule,
-   UserModule
+   UserModule,
+   SharedModule
   ],
  // exports:[RouterModule],
   providers: [],
